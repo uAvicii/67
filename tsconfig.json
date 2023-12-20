@@ -1,0 +1,63 @@
+{
+  "files": [],
+  "include": [
+    "src",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "*.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "compilerOptions": {
+    "outDir": "./dist", // 输出目录 
+    "declaration": true,
+    "declarationDir": "./dist",
+    "emitDeclarationOnly": false,
+    "allowJs": true,
+    "types": [
+      "vue",
+      "vue-router",
+      "@types/node",
+      "three"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ],
+    "target": "esnext",
+    "module": "esnext",
+    "useDefineForClassFields": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@": [
+        "src"
+      ],
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/__test__/*"
+  ]
+}
