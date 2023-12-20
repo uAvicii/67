@@ -53,8 +53,4 @@ export default defineConfig({
     }
   },
   base: '/test-build/',
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets'
-  }
 })
