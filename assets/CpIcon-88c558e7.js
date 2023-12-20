@@ -1,1 +1,0 @@
-import{d as _,f as o,g as n,i as s}from"./index-12c8b441.js";import{_ as c}from"./_plugin-vue_export-helper-c27b6911.js";const t={"aria-hidden":"true",class:"cp-icon"},a=["href"],p=_({__name:"CpIcon",props:{name:{}},setup(r){return(e,i)=>(o(),n("svg",t,[s("use",{href:`#icon-${e.name}`},null,8,a)]))}});const f=c(p,[["__scopeId","data-v-2f2c4e98"]]);export{f as _};
