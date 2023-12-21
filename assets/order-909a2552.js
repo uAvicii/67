@@ -1,1 +1,0 @@
-import{r}from"./request-50970fcd.js";const s=e=>r({url:"/patient/medicine/order/pre",params:e}),i=()=>r("/patient/order/address"),a=e=>r({url:`/patient/medicine/order/detail/${e}`}),d=e=>r(`/patient/order/${e}/logistics`);export{i as a,a as b,d as c,s as g};
